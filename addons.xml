@@ -1,60 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.xxx-o-dus" 
-	     name="XXX-O-DUS" 
-	     version="3.00.000" 
-	     provider-name="Xibalba">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xibalba"/>
-    <import addon="script.xxxodus.artwork"/>
-    <import addon="script.xxxodus.scrapers"/>
-    <import addon="script.module.urlresolver"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension> 
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">The AIO XXX Addon for Kodi</summary>
-    <description lang="en">[COLOR white]XXX-O-DUS scrapes many websites to bring you hundreds of thousands of videos. Features of the addon include, history monitoring, favourites, downloadable videos, parental controls and more![/COLOR]
-
-[COLOR white]Websites Include: Porn.com, PornHD.com, Chaturbate.com, RedTube.com, Xhamster.com, YouPorn.com, PornFun.com, Motherless.com,Porn00.org, Spankbang.com, Virtualpornstars.com, Watchxxxfree.com, Perfectgirls.net, XNXX.com and many more.[/COLOR]</description>
-    <disclaimer lang="en">The pages of this addon are designed for ADULTS only and may include pictures and materials that some viewers may find offensive. If you are under the age of 18, if such material offends you or if it is illegal to view such material in your community please exit the addon.</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website>https://github.com/xibalba10</website>
-    <forum>https://github.com/xibalba10</forum>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-<addon id="script.xxxodus.artwork" version="1.00.000" name="XXXODUS Artwork" provider-name="Xibalba">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Artwork for XXXODUS</summary>
-		<description>Artwork for XXXODUS is maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.000" provider-name="Xibalba">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Scrapers for use in XXXODUS</summary>
-	</extension>
-</addon>
 <addon id="frenchdj.repository" name="frenchdj repository" version="0.0.1" provider-name="frenchdj">
 	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
 		<info compressed="false">http://raw.github.com/frenchdj/frenchdj.repository/master/addons.xml</info>
@@ -124,6 +69,7 @@
     <platform>all</platform>
   </extension>
 </addon>
+
 
 <addon id="plugin.program.jollyroger" name="Jolly Roger Cookbook" version="1.0.0" provider-name="MetalKettle">
 
@@ -355,7 +301,7 @@ Playlists organized by categories and any source comes from Youtube users.
 		<forum></forum>
 		<website></website>
 		<source></source>
-		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. Use at your own risk!</disclaimer>
 
 		<assets>
 			<icon>icon.png</icon>
@@ -364,7 +310,7 @@ Playlists organized by categories and any source comes from Youtube users.
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>[B]1.1.1[/B][CR]- Fix trakt support[CR]- Updated existing providers[CR]- Added new providers</news>
+		<news>[B]1.1.0[/B][CR]- Official release[CR]- Fix trakt support[CR]- Updated existing providers[CR]- Added new providers[CR]- Artwork changes[CR]- Minor improvements</news>
 	</extension>
 </addon>
 
@@ -477,6 +423,38 @@ Playlists organized by categories and any source comes from Youtube users.
 		</assets>
 		<news>REBOOT</news>
 	</extension>
+</addon>
+
+
+<addon id="plugin.video.erotik" name="Erotik (XXX)" version="1.0.21" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.t0mm0.common" version="1.1.0"/>
+
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.urlresolver" version="2.2.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
 </addon>
 
 <addon id="plugin.video.FMG"
@@ -670,7 +648,7 @@ Playlists organized by categories and any source comes from Youtube users.
   </extension>
 </addon>
 
-<addon id="plugin.video.moviedude" name="Movie Dude" version="04.07.17" provider-name="The Alpha">
+<addon id="plugin.video.moviedude" name="Movie Dude" version="16.7.17" provider-name="The Alpha">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -684,7 +662,7 @@ Playlists organized by categories and any source comes from Youtube users.
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Movie Dude</summary>
-		<description lang="en"></description>
+		<description lang="en">Thanks Jokstergfx For The Artwork</description>
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
@@ -692,7 +670,7 @@ Playlists organized by categories and any source comes from Youtube users.
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>REBOOT</news>
+		<news>New Artwork 2nd Scraper</news>
 	</extension>
 </addon>
 
@@ -966,6 +944,41 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
+<addon id="plugin.video.xxx-o-dus"
+	     name="XXX-O-DUS"
+	     version="3.00.000"
+	     provider-name="Xibalba">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xibalba"/>
+    <import addon="script.xxxodus.artwork"/>
+    <import addon="script.xxxodus.scrapers"/>
+    <import addon="script.module.urlresolver"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">The AIO XXX Addon for Kodi</summary>
+    <description lang="en">[COLOR white]XXX-O-DUS scrapes many websites to bring you hundreds of thousands of videos. Features of the addon include, history monitoring, favourites, downloadable videos, parental controls and more![/COLOR]
+
+[COLOR white]Websites Include: Porn.com, PornHD.com, Chaturbate.com, RedTube.com, Xhamster.com, YouPorn.com, PornFun.com, Motherless.com,Porn00.org, Spankbang.com, Virtualpornstars.com, Watchxxxfree.com, Perfectgirls.net, XNXX.com and many more.[/COLOR]</description>
+    <disclaimer lang="en">The pages of this addon are designed for ADULTS only and may include pictures and materials that some viewers may find offensive. If you are under the age of 18, if such material offends you or if it is illegal to view such material in your community please exit the addon.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>https://github.com/xibalba10</website>
+    <forum>https://github.com/xibalba10</forum>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.2" provider-name="Colossal">
     <extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
     <dir>
@@ -1011,20 +1024,20 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
         </extension>
     </addon>
 
-<addon id="repository.tvguides" name=".[COLOR red]TV GUIDES[/COLOR] Repository" version="0.0.1" provider-name="locknload">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="TV GUIDES Repository">
-        <info compressed="false">http://tvstreamers.net/repo/tvguides/addons.xml</info>
-        <checksum>http://tvstreamers.net/repo/tvguides/addons.xml.md5</checksum>
-        <datadir zip="true">http://tvstreamers.net/repo/tvguides/</datadir>
-        <hashes>false</hashes>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>TV GUIDES Repository</summary>
-        <description>!! TV GUIDES !!</description>
-        <platform>all</platform>
+    <addon id="repository.tvguides" name=".[COLOR red]TV GUIDES[/COLOR] Repository" version="0.0.1" provider-name="locknload">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="TV GUIDES Repository">
+            <info compressed="false">http://tvstreamers.net/repo/tvguides/addons.xml</info>
+            <checksum>http://tvstreamers.net/repo/tvguides/addons.xml.md5</checksum>
+            <datadir zip="true">http://tvstreamers.net/repo/tvguides/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>TV GUIDES Repository</summary>
+            <description>!! TV GUIDES !!</description>
+            <platform>all</platform>
     </extension>
 </addon>
 
@@ -1069,7 +1082,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
-        
+
 		<summary lang="en">Powered By TV Streamers</summary>
 		<description lang="en">[COLOR red]IMPORTANT T&amp;C's [/COLOR] This Guide only provides a selection of Legitimatly Sourced Freeview Channels. On activating these streams you have agreed to having the Correct TV Licence for the Content you are viewing. Assassins TV Guide does not condone any illegitimate content, Adding [COLOR red]ANY[/COLOR] other content is done so at your own discretion. All Logos used are copyright to their respective owners. </description>
         <disclaimer lang="en">Based on tvguide.fullscreen from Primaeval</disclaimer>
@@ -1083,49 +1096,26 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.toddlerworldtv" name="Toddler World TV" version="1.0.1" provider-name="MetalKettle">
+<addon id="script.xxxodus.artwork" version="1.00.000" name="XXXODUS Artwork" provider-name="Xibalba">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver"  version="2.1.2"/>
-		<import addon="plugin.video.youtube" version="3.0.0"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
+	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en"></description>
+		<summary>Artwork for XXXODUS</summary>
+		<description>Artwork for XXXODUS is maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.erotik" name="Erotik (XXX)" version="1.0.21" provider-name="MetalKettle">
 
-  <requires>
-
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="script.module.t0mm0.common" version="1.1.0"/>
-
-    <import addon="script.module.beautifulsoup"/>
-    <import addon="script.module.urlresolver" version="2.2.0"/>
-
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-
-        <provides>video</provides>
-
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-
-    <summary lang="en"></summary>
-
-    <description lang="en"></description>
-
-    <platform>all</platform>
-
-  </extension>
-
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.000" provider-name="Xibalba">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Scrapers for use in XXXODUS</summary>
+	</extension>
 </addon>
 </addons>
