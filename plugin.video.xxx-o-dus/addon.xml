@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.000" 
+	     version="3.00.001" 
 	     provider-name="Xibalba">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -9,6 +9,7 @@
     <import addon="script.xxxodus.artwork"/>
     <import addon="script.xxxodus.scrapers"/>
     <import addon="script.module.urlresolver"/>
+    <import addon="repository.xibalba"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -25,8 +26,8 @@
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website>https://github.com/xibalba10</website>
-    <forum>https://github.com/xibalba10</forum>
+    <website>http://fusion.tvaddons.ag</website>
+    <forum>http://tvaddons.ag/forums</forum>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
