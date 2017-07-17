@@ -1144,7 +1144,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="script.mkplex"
        name="MK Plex"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="MetalKettle, Plex">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
