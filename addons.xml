@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.xibalba" name="Xibalba Repository" version="1.01" provider-name="Xibalba">
-    <extension point="xbmc.addon.repository" name="Xibalba Repository">
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
-    </dir>
-        <info compressed="false">https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml</info>
-        <checksum>https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/xibalba10/repository.xibalba/raw/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Unofficial Kodi Addons from Xibalba</summary>
-        <description>Download and install unofficial Kodi add-ons from the Xibalba add-on repository.
-
-Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <forum>https://github.com/xibalba10</forum>
-        <website>https://github.com/xibalba10</website>
-    </extension>
-</addon>
 <addon id="frenchdj.repository" name="frenchdj repository" version="0.0.1" provider-name="frenchdj">
 	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
 		<info compressed="false">http://raw.github.com/frenchdj/frenchdj.repository/master/addons.xml</info>
@@ -249,6 +227,26 @@ Playlists organized by categories and any source comes from Youtube users.
 
   </extension>
 
+</addon>
+
+<addon id="plugin.video.bonanza"
+       name="IPTV BONANZA"
+       version="1.0.0"
+       provider-name="BONANZA">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">IPTV BONANZA</summary>
+        <description lang="en">Find and play daily IPTV lists in blogs and websites.</description>
+    </extension>
 </addon>
 
 <addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
@@ -790,7 +788,7 @@ Playlists organized by categories and any source comes from Youtube users.
 
 <addon
   id="plugin.video.SportsDevil"
-  version="3.build.20170624"
+  version="3 (build 20170717)"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -966,9 +964,9 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.xxx-o-dus" 
-	     name="XXX-O-DUS" 
-	     version="3.00.001" 
+<addon id="plugin.video.xxx-o-dus"
+	     name="XXX-O-DUS"
+	     version="3.00.001"
 	     provider-name="Xibalba">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -982,7 +980,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
         <provides>video</provides>
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup">
-  </extension> 
+  </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">The AIO XXX Addon for Kodi</summary>
@@ -1064,6 +1062,29 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
+<addon id="repository.xibalba" name="Xibalba Repository" version="1.01" provider-name="Xibalba">
+    <extension point="xbmc.addon.repository" name="Xibalba Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml</info>
+        <checksum>https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/xibalba10/repository.xibalba/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Kodi Addons from Xibalba</summary>
+        <description>Download and install unofficial Kodi add-ons from the Xibalba add-on repository.
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <forum>https://github.com/xibalba10</forum>
+        <website>https://github.com/xibalba10</website>
+    </extension>
+</addon>
+
 <addon id="script.covenant.artwork" version="1.0.2" name="Covenant Artwork" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -1141,27 +1162,4 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 		<summary lang="en">Scrapers for use in XXXODUS</summary>
 	</extension>
 </addon>
-
-<addon id="script.mkplex"
-       name="MK Plex"
-       version="0.0.1"
-       provider-name="MetalKettle, Plex">
-    <requires>
-        <import addon="xbmc.python" version="2.24.0"/>
-        <import addon="script.module.requests" version="2.3.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.python.pluginsource" library="plugin.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"></extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Plex for Kodi supporting free accounts</summary>
-        <description lang="en">Unofficial Plex for Kodi add-on</description>
-         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <platform>all</platform>    </extension>
-</addon>
-
 </addons>
