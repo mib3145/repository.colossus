@@ -173,20 +173,18 @@ provider-name="Smurf, Locknload">
 
 <addon id="plugin.video.alive.hd"
        name="Alive.HD"
-       version="5.1"
+       version="5.2"
        provider-name="frenchdj">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup" />
+    <import addon="script.module.simple.downloader" />
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -194,14 +192,13 @@ provider-name="Smurf, Locknload">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Dual Edition Addon</summary>
-    <description>Concerts and Djs live performances in HD quality.
-Playlists organized by categories and any source comes from Youtube users.
+    <summary lang="en">Colossus Edition</summary>
+    <description>Concerts and Djs live performances in HD quality. 
+Playlists organized by categories and any source comes from Youtube users. 
 [B][COLOR lime]Advised the latest version of youtube 5.*.*[/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
-
 
 <addon id="plugin.video.bigbuckbunny" name="Big Buck Bunny" version="1.0.3" provider-name="MetalKettle">
 
@@ -390,20 +387,18 @@ Playlists organized by categories and any source comes from Youtube users.
 
 <addon id="plugin.video.documented.hd"
        name="Documented.HD"
-       version="1.1"
+       version="2.0"
        provider-name="frenchdj">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup" />
+    <import addon="script.module.simple.downloader" />
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -411,9 +406,9 @@ Playlists organized by categories and any source comes from Youtube users.
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Dual Edition Addon</summary>
-    <description>Alternative documentaries in HD quality.
-Playlists organized by categories and any source comes from Youtube users.
+    <summary lang="en">Colossus Addon</summary>
+    <description>Alternative documentaries in HD quality. 
+Playlists organized by categories and any source comes from Youtube users. 
 [B][COLOR lime]Advised the latest version of youtube 5.*.*[/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
@@ -499,7 +494,7 @@ Playlists organized by categories and any source comes from Youtube users.
   </extension>
 </addon>
 
-<addon id="plugin.video.fod" name="[COLOR red]FEAR[/COLOR][COLOR white]OF[/COLOR][COLOR red]THE[/COLOR][COLOR white]DARK[/COLOR]" version="0.0.2" provider-name="Taurus">
+<addon id="plugin.video.fod" name="[COLOR red]FEAR[/COLOR][COLOR white]OF[/COLOR][COLOR red]THE[/COLOR][COLOR white]DARK[/COLOR]" version="0.0.3" provider-name="Taurus">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -801,7 +796,7 @@ Playlists organized by categories and any source comes from Youtube users.
    <!--<import addon="script.video.F4mProxy" />
    <import addon="plugin.video.f4mTester" />-->
   </requires>
-  <extension
+  <extension 
     point="xbmc.python.pluginsource"
     library="default.py">
    <provides>video</provides>
@@ -810,9 +805,9 @@ Playlists organized by categories and any source comes from Youtube users.
   <extension point="xbmc.addon.metadata">
     <summary>Play videos of different ad-financed sports streaming sites</summary>
     <description>Play videos of different ad-financed sports streaming sites.
-
+    
 SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site.
-
+    
 For updates check the readme.
     </description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
