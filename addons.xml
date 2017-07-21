@@ -783,7 +783,7 @@ Playlists organized by categories and any source comes from Youtube users.
 
 <addon
   id="plugin.video.SportsDevil"
-  version="3-build-20170717"
+  version="2017.07.17"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
