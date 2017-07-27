@@ -2,6 +2,7 @@
 - Pubfilm fix
 - Kingmovies fix
 - Juicy Codes decoder
+- show unaired seasons/episodes 
 
 [B]1.1.2[/B]
 - Trakt workaround in tools for Leia
