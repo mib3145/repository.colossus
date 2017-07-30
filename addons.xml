@@ -1169,7 +1169,7 @@ Removed: Nudeflix</news>
 
 <addon id="plugin.video.xxx-o-dus"
 	     name="XXX-O-DUS"
-	     version="3.00.017"
+	     version="3.00.018"
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
