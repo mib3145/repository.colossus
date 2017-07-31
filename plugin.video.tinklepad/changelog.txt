@@ -1,4 +1,14 @@
 ------------------------
+TinklePad v2.0.4 (15 Jul-17)
+
+- Additional meta data for tvshows
+
+------------------------
+TinklePad v2.0.3 (15 Jul-17)
+
+- Use Covenant now for Latest HD only if enabled in settings and also installed
+
+------------------------
 TinklePad v2.0.2 (27 June-17)
 
 - Updated correct dependencies versions
