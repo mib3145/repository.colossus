@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.moviedude" name="Movie Dude" version="16.7.17" provider-name="The Alpha">
+<addon id="plugin.video.moviedude" name="Movie Dude" version="2017.08.05" provider-name="The Alpha">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -13,7 +13,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Movie Dude</summary>
-		<description lang="en">Thanks Jokstergfx For The Artwork</description>
+		<description lang="en"></description>
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
@@ -21,6 +21,6 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>New Artwork 2nd Scraper</news>
+		<news>New Artwork 2nd Scraper updated fixed version number</news>
 	</extension>
 </addon>
