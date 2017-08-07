@@ -1,0 +1,47 @@
+-----------------------------------------
+Version: 3.00.025
+
+--- Added dependency versions as menu item. (Important for debug)
+--- Fix issue in adult resolver.
+--- Added Pornilly to Tubes.
+
+-----------------------------------------
+Version: 3.00.024
+
+--- Added PandaMovies to Movies.
+--- Added Fuqer to Tubes.
+--- Added DaftPorn to Fetish.
+--- Code changes (misc)
+
+-----------------------------------------
+Version: 3.00.023
+
+--- Option to save view mode via context menu.
+--- Added Spreadporn to Movies.
+--- Added Girlfriend Videos to Tubes.
+--- Chaturbate view type added to settings.
+
+-----------------------------------------
+Version: 3.00.022
+
+--- Fix broken player.
+
+-----------------------------------------
+Version: 3.00.021
+
+--- Added Changelog section to main menu.
+--- Added Movies section to main menu.
+--- Fixed Watchxxxfree.
+--- Fixed Streamingporn Movies.
+--- Fixed Vintage.
+--- Added SexVR to Virtual Reality.
+--- Added Xtheatre to Movies.
+
+-----------------------------------------
+Version: 3.00.020
+
+--- Added Javtasty
+--- Added Virtual Reality Section
+--- Added Smash VR
+
+-----------------------------------------

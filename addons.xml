@@ -1079,7 +1079,7 @@ Removed: Nudeflix</news>
 
 <addon id="plugin.video.xxx-o-dus"
 	     name="XXX-O-DUS"
-	     version="3.00.024"
+	     version="3.00.025"
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1114,7 +1114,7 @@ Removed: Nudeflix</news>
   </extension>
 </addon>
 
-<addon id="script.xxxodus.artwork" version="1.00.016" name="XXXODUS Artwork" provider-name="Echo Coder">
+<addon id="script.xxxodus.artwork" version="1.00.017" name="XXXODUS Artwork" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -1126,7 +1126,7 @@ Removed: Nudeflix</news>
 	</extension>
 </addon>
 
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.018" provider-name="Echo Coder">
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.019" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
