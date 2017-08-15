@@ -1107,9 +1107,9 @@ Removed: Nudeflix</news>
   </extension>
 </addon>
 
-<addon id="plugin.video.xxx-o-dus"
-	     name="XXX-O-DUS"
-	     version="3.00.026"
+<addon id="plugin.video.xxx-o-dus" 
+	     name="XXX-O-DUS" 
+	     version="3.00.027" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1119,12 +1119,13 @@ Removed: Nudeflix</news>
     <import addon="script.module.urlresolver"/>
     <import addon="script.module.urlresolver.xxx"/>
     <import addon="script.module.pyxbmct"/>
+    <import addon="repository.colossus"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
+  </extension> 
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">[B]Massive Credit to @_PYDEV_ KingKong for the pyxbmct work to provide a stunning interface to view the dialogs in this addon and the GitHub issues! Also A huge credit to jokstergfx for the icons and fanarts in this addon and many others! Thank you![/B]</summary>
