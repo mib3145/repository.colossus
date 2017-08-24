@@ -285,21 +285,6 @@ Playlists organized by categories and any source comes from Youtube users.
 
 </addon>
 
-<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver"  version="0.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.covenant" version="1.1.10" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -783,20 +768,6 @@ Playlists organized by categories and any source comes from Youtube users.
   </extension>
 </addon>
 
-<addon id="plugin.video.toonmania" name="ToonMania" version="1.0.4" provider-name="MetalKettle">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en"></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.toonstv" name="Angry Birds : Toons TV" version="1.0.0" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -823,21 +794,6 @@ Playlists organized by categories and any source comes from Youtube users.
     <description lang="en">Some of the streams are poor quality, be warned :)</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.tvmix" name="TV Mix" version="1.0.6" provider-name="MetalKettle">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver"  version="2.1.2"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en"></description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.6" provider-name="Colossal">
