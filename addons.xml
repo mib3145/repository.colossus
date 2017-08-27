@@ -1106,7 +1106,7 @@ Playlists organized by categories and any source comes from Youtube users.
 	</extension>
 </addon>
 
-<addon id="plugin.video.ourmatch" name="Our Match" version="1.0.0" provider-name="123456">
+<addon id="plugin.video.ourmatch" name="Our Match" version="1.0.1" provider-name="123456">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
