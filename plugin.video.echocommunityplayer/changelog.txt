@@ -1,0 +1,11 @@
+1.04 - 
+M3U8 fix.
+
+1.03 - 
+Added support for URL Resolver and Live Resolver.
+
+1.02 - 
+Fixed M3U lists not loading.
+
+1.00 - 
+Initial
