@@ -1047,7 +1047,7 @@ Playlists organized by categories and any source comes from Youtube users.
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.028" 
+	     version="3.00.029" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1074,8 +1074,8 @@ Playlists organized by categories and any source comes from Youtube users.
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <website>https://github.com/echocoderxbmc/plugin.video.xxx-o-dus</website>
-    <forum>https://github.com/echocoderxbmc/plugin.video.xxx-o-dus</forum>
+    <website>https://github.com/Colossal1/plugin.video.xxx-o-dus</website>
+    <forum>https://github.com/Colossal1/plugin.video.xxx-o-dus</forum>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
