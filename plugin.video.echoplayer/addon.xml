@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.echoplayer" 
-	     name="ECHO Player" 
-	     version="1.03"
+	     name="Echo Player" 
+	     version="2.00.000"
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14,14 +14,14 @@
   </extension> 
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">Twitter Support: @echo_coding</summary>
+    <summary lang="en">Support: https://github.com/Colossal1/plugin.video.echoplayer/issues</summary>
     <description lang="en">Play a variety of differnt file extentions via urls.</description>
     <disclaimer lang="en">Play ts, m3u, m3u8, mp4, mkv and much much more!</disclaimer>
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://www.echocoder.com</forum>
-    <website>http://www.echocoder.com</website>
-    <email>echocoder@protonmail.com</email>
+    <forum>https://github.com/Colossal1/plugin.video.echoplayer</forum>
+    <website>https://github.com/Colossal1/plugin.video.echoplayer</website>
+    <email>echocoderxbmc@protonmail.com</email>
   </extension>
 </addon>
