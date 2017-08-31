@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
 <addon id="plugin.video.bennu" name="Bennu" version="17.8.11" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -59,6 +60,7 @@
             <platform>all</platform>
     </extension>
 </addon>
+
 <addon id="frenchdj.repository" name="frenchdj repository" version="0.0.1" provider-name="frenchdj">
 	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
 		<info compressed="false">http://raw.github.com/frenchdj/frenchdj.repository/master/addons.xml</info>
@@ -71,8 +73,7 @@
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
-
-
+</addon>
 
 <addon id="plugin.program.ATools" name="Assassins Tools" version="0.0.1" provider-name="Aftermath">
   <requires>
@@ -87,11 +88,7 @@
     <description lang="en">Assassins Tools using Aftermath Wizard, which allows you to get access to the latest Aftermath Custom Builds.</description>
     <platform>all</platform>
   </extension>
-
-
 </addon>
-
-
 
 <addon id="plugin.video.adultswim"
        name="Adult Swim"
@@ -167,8 +164,6 @@ Playlists organized by categories and any source comes from Youtube users.
   </extension>
 </addon>
 
-
-
 <addon id="plugin.video.covenant" version="1.1.12" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -223,9 +218,6 @@ Playlists organized by categories and any source comes from Youtube users.
   </extension>
 </addon>
 
-
-
-
 <addon id="plugin.video.documented.hd"
        name="Documented.HD"
        version="2.2"
@@ -254,8 +246,6 @@ Playlists organized by categories and any source comes from Youtube users.
     <platform>all</platform>
   </extension>
 </addon>
-
-
 
 <addon id="plugin.video.FMG"
        name="Find My Game"
@@ -328,7 +318,6 @@ Playlists organized by categories and any source comes from Youtube users.
 		<platform>all</platform>
 	</extension>
 </addon>
-
 
 <addon id="plugin.video.mic"
        name="Made In Canada IPTV"
@@ -459,7 +448,6 @@ Playlists organized by categories and any source comes from Youtube users.
 	</extension>
 </addon>
 
-
 <addon id="plugin.video.tinklepad" name="TinklePad" version="2.0.8" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -477,7 +465,6 @@ Playlists organized by categories and any source comes from Youtube users.
 		<platform>all</platform>
 	</extension>
 </addon>
-
 
 <addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.6" provider-name="Colossal">
     <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
@@ -912,4 +899,5 @@ Skin and code for skin by Demonstratorz</description>
     </assets>
   </extension>
 </addon>
+
 </addons>
