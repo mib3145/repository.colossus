@@ -882,7 +882,7 @@ Skin and code for skin by Demonstratorz</description>
 
 <addon id="plugin.video.sportie" 
          name="Sportie" 
-         version="2.00.003"
+         version="2.00.004"
          provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -890,6 +890,7 @@ Skin and code for skin by Demonstratorz</description>
     <import addon="script.module.simplejson" />
     <import addon="script.module.liveresolver" />
     <import addon="script.module.urlresolver" />
+    <import addon="script.module.echo" />
     <import addon="script.video.F4mProxy" />
     <import addon="plugin.video.f4mTester" />
     <import addon="plugin.video.SportsDevil" />
