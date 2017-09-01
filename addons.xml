@@ -810,18 +810,20 @@ Playlists organized by categories and any source comes from Youtube users.
 
 <addon id="plugin.video.youporn" 
 	     name="YouPorn" 
-	     version="2.02" 
+	     version="3.00.000" 
 	     provider-name="Echo Coder">
   <requires>
 	<import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.urlresolver.xxx"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">OVER 18 ONLY - Support is available on Twitter @EchoCoding</summary>
+    <summary lang="en">OVER 18 ONLY - Support is available https://github.com/Colossal1/plugin.video.youporn/issues</summary>
     <description lang="en">YouPorn Scraping by Echo Coder
 
 Skin and code for skin by Demonstratorz</description>
@@ -829,9 +831,9 @@ Skin and code for skin by Demonstratorz</description>
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://www.echocoder.com</forum>
-    <website>http://www.echocoder.com</website>
-    <email>echocoder@protonmail.com</email>
+    <forum>https://github.com/Colossal1/plugin.video.youporn</forum>
+    <website>https://github.com/Colossal1/plugin.video.youporn</website>
+    <email>echocoderxbmc@protonmail.com</email>
   </extension>
 </addon>
 
