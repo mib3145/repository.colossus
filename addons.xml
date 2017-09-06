@@ -1097,7 +1097,7 @@ Skin and code for skin by Demonstratorz</description>
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.silenthunter" name="Silent Hunter" version="6.0" provider-name="SH">
+<addon id="plugin.video.silenthunter" name="Silent Hunter" version="6.0.1" provider-name="SH">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
