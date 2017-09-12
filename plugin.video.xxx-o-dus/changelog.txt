@@ -1,3 +1,9 @@
+Version: 3.00.030
+
+--- Fix XXXODUS Downloader.
+--- Fix YouPorn
+
+-----------------------------------------
 Version: 3.00.029
 
 --- Change GitHub Issues location to Colossal.

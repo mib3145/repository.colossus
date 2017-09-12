@@ -874,7 +874,7 @@ Playlists organized by categories and any source comes from Youtube users.
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.029" 
+	     version="3.00.030" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -922,7 +922,7 @@ Playlists organized by categories and any source comes from Youtube users.
 	</extension>
 </addon>
 
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.022" provider-name="Echo Coder">
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.023" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
