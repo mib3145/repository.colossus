@@ -151,7 +151,7 @@ provider-name="Smurf, Locknload">
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>[B]1.1.13[/B][CR]Code cosmetics</news>
+		<news></news>
 	</extension>
 </addon>
 
