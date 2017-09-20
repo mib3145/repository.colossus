@@ -473,8 +473,8 @@ provider-name="Smurf, Locknload">
 
 <addon id="plugin.video.sportie"
          name="Sportie"
-         version="2.00.006"
-         provider-name="Echo Coder">
+         version="2.00.007"
+         provider-name="Echo Coder, gujal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.colossus" />
