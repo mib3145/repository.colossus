@@ -1,15 +1,25 @@
-[B]Version 2.0.6[/B]
-Take over addon from TK
-Update translations
-Improve gvideo parsing
+[B]Version 2.3.0[/B]
+- Minor bug fixes
+- cleaned up a more files
+- Removed everything todo with TMDB cache
+- Revamped the DS image Thanks Scott
+- Fixed API keys
+
+[B]Version 2.2.6[/B]
+update to resolve the update from smash repo colossus is the main home..
+
+[B]Version 2.2.5[/B]
+Minor bug fixes - cleaned up more files, Removed everything todo with TMDB cache and Revamped the DS image Thanks Scott, Fixed API keys. 
+Please if anyone is interested in helping me with this you can find me on twitter, Credit goes to TKNorris of SALTS!!
+
+[B]Version 2.2.4[/B]
+sorted though files did a few changes cleaned unwanted junk..
 
 [B]Version 2.1.6[/B]
 - Latest version fixed by MR B, Fixed Images Loading Slow, Tweaked a few debrid scrapers Update: Fixed some scrapers not scraping, Fixed a few scraper searches.. 
 Please if anyone is interested in helping me with this feel free, i'll continue working on it !!
 
-[B]Version 2.2.4[/B]
-sorted though files did a few changes cleaned unwanted junk..
-
-[B]Version 2.2.5[/B]
-Minor bug fixes - cleaned up more files, Removed everything todo with TMDB cache and Revamped the DS image Thanks Scott, Fixed API keys. 
-Please if anyone is interested in helping me with this you can find me on twitter, Credit goes to TKNorris of SALTS!!
+[B]Version 2.0.6[/B]
+Take over addon from TK
+Update translations
+Improve gvideo parsing
