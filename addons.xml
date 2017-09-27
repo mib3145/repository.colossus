@@ -117,11 +117,12 @@ provider-name="Smurf, Locknload">
 </extension>
 </addon>
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.8.19" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.9.27" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" />
 		<import addon="plugin.video.youtube" version="5.2.1" />
+		<import addon="script.module.covenant" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
@@ -203,9 +204,10 @@ provider-name="Smurf, Locknload">
   </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.16" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.17" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.covenant" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
 		<import addon="script.covenant.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
@@ -732,6 +734,17 @@ Skin and code for skin by Demonstratorz</description>
 		<summary>Metadata for the Covenant Addon</summary>
 		<description>Metadata for Covenant are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.000" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Covenant</summary>
 	</extension>
 </addon>
 
