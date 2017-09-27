@@ -737,6 +737,18 @@ Skin and code for skin by Demonstratorz</description>
 	</extension>
 </addon>
 
+<addon id="script.deaths.themepak" version="0.0.14" name="DS Themepak" provider-name="MR Blamo">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.resource.images" compile="false" type="themepak" />
+    <extension point="xbmc.addon.metadata">
+        <summary>These are Themes for the Death Streams Addon</summary>
+        <description>Themes are maintained separately to make distribution of the the addon itself easier and faster credit to k3l3vra for some good themes.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.module.covenant" name="Covenant Module" version="1.00.000" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
