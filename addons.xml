@@ -749,7 +749,7 @@ Skin and code for skin by Demonstratorz</description>
     </extension>
 </addon>
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.002" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.003" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
