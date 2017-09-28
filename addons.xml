@@ -760,7 +760,7 @@ Skin and code for skin by Demonstratorz</description>
 	</extension>
 </addon>
 
-<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="0.0.24" provider-name="Mr Blamo">
+<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="0.1.9" provider-name="Mr Blamo">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
